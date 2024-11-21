@@ -5,7 +5,7 @@ import { MdMail } from 'react-icons/md';
 import { FaLinkedin } from 'react-icons/fa6';
 
 const Contact = () => {
-  const handleSubmit = (event) => {
+  const handleSubmit = (event:any) => {
     event.preventDefault(); // Prevents page reload on form submission
     alert('Form submitted successfully!'); // Placeholder for form submission logic
   };
